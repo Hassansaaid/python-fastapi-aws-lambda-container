@@ -27,7 +27,7 @@ provider:
     images:
       pdf-plumber:
         path: ./
-  region: eu-west-3     
+  region: us-east-1     
 # you can overwrite defaults here
 #  stage: dev
          
