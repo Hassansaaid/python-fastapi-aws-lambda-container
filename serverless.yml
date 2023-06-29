@@ -56,7 +56,7 @@ provider:
 
 functions:
   hello:
-    timeout: 20
+    timeout: 3600
     image:
       name: pdf-plumber 
     events:
