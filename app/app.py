@@ -48,7 +48,7 @@ app.include_router(helloworld_router.router, prefix='/hello', tags=['hello'])
 #   Handler for AWS Lambda                                                    #
 ###############################################################################
 
-handler = Mangum(app)
+handler = Mangum(app,spec_version=2)
 
 ###############################################################################
 #   Run the self contained application                                        #
