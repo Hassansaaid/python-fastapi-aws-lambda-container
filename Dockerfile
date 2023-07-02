@@ -1,5 +1,5 @@
 FROM public.ecr.aws/lambda/python:3.8
-COPY ./app ./app
+COPY ./app2 ./app
 COPY ./requirements.txt ./requirements.txt
 RUN pip install -r ./requirements.txt
-CMD ["app.app.handler"]
+CMD ["app2.app.handler"]
