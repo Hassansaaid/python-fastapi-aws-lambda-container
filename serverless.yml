@@ -27,7 +27,10 @@ provider:
     images:
       pdf-plumber:
         path: ./
-  region: us-east-1     
+  region: us-east-1
+  runtime: python3.8  
+plugins:
+  - serverless-python-requirements   
 # you can overwrite defaults here
 #  stage: dev
          
